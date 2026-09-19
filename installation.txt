@@ -1,0 +1,11 @@
+# Initialize git and add the script file
+git init
+git add scan_script.sh
+git commit -m "Add sslscan lab commands script"
+
+# Set branch and remote repository (Replace with your actual GitHub URL)
+git branch -M main
+git remote add origin https://github.com
+
+# Upload to GitHub
+git push -u origin main
